@@ -1,0 +1,108 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ada7a7;
+}
+
+.login-container {
+    background-color: #fffffe;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; 
+    text-align: left; 
+    margin-right: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px; /* Space between checkbox and label */
+    vertical-align: middle; /* Aligns checkbox with text */
+}
+
+.checkbox-container label {
+    margin: 0; /* Removes default margin */
+    vertical-align: middle; /* Aligns label with checkbox */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #505b66;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #090b0c;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.forgot-password {
+    color: #09090a;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Image or PNG file related styles */
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 20px;
+    height: auto;
+    max-width: 100px; 
+    max-height: 100px; 
+}
